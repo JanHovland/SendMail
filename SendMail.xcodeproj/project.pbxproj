@@ -8,18 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		DBA6A5582532013D009A4400 /* SendMailApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBA6A5572532013D009A4400 /* SendMailApp.swift */; };
-		DBA6A55A2532013D009A4400 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBA6A5592532013D009A4400 /* ContentView.swift */; };
+		DBA6A55A2532013D009A4400 /* SendMailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBA6A5592532013D009A4400 /* SendMailView.swift */; };
 		DBA6A55C2532013D009A4400 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBA6A55B2532013D009A4400 /* Assets.xcassets */; };
 		DBA6A55F2532013D009A4400 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBA6A55E2532013D009A4400 /* Preview Assets.xcassets */; };
+		DBA6A56925321872009A4400 /* MailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBA6A56825321872009A4400 /* MailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		DBA6A5542532013D009A4400 /* SendMail.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SendMail.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBA6A5572532013D009A4400 /* SendMailApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendMailApp.swift; sourceTree = "<group>"; };
-		DBA6A5592532013D009A4400 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DBA6A5592532013D009A4400 /* SendMailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendMailView.swift; sourceTree = "<group>"; };
 		DBA6A55B2532013D009A4400 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DBA6A55E2532013D009A4400 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		DBA6A5602532013D009A4400 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DBA6A56825321872009A4400 /* MailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,8 +54,9 @@
 		DBA6A5562532013D009A4400 /* SendMail */ = {
 			isa = PBXGroup;
 			children = (
+				DBA6A56825321872009A4400 /* MailView.swift */,
 				DBA6A5572532013D009A4400 /* SendMailApp.swift */,
-				DBA6A5592532013D009A4400 /* ContentView.swift */,
+				DBA6A5592532013D009A4400 /* SendMailView.swift */,
 				DBA6A55B2532013D009A4400 /* Assets.xcassets */,
 				DBA6A5602532013D009A4400 /* Info.plist */,
 				DBA6A55D2532013D009A4400 /* Preview Content */,
@@ -138,7 +141,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DBA6A55A2532013D009A4400 /* ContentView.swift in Sources */,
+				DBA6A55A2532013D009A4400 /* SendMailView.swift in Sources */,
+				DBA6A56925321872009A4400 /* MailView.swift in Sources */,
 				DBA6A5582532013D009A4400 /* SendMailApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
