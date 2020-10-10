@@ -40,7 +40,6 @@ struct SendMailView: View {
                      subject: self.$subject,
                      messageBody: self.$messageBody,
                      result: self.$result)
-                     
         }
         
     }
